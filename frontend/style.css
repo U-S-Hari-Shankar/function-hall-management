@@ -102,3 +102,41 @@ button {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+#eventDate,
+#hallSelect {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#result:empty {
+  display: none;
+}
+
+.available {
+  background: #e8f8f0;
+  color: #1e8449;
+  border: 1px solid #1e8449;
+}
+
+.booked {
+  background: #fdecea;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+}
+
+.warning {
+  background: #fef5e7;
+  color: #b9770e;
+  border: 1px solid #b9770e;
+}
